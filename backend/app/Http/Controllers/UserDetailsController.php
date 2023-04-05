@@ -36,7 +36,7 @@ class UserDetailsController extends Controller
         $validateData = Validator::make($request->all(),[
             'firstName' => 'required',
             'lastName' => 'required',
-            'phone'=>'required|unique:user_details,number',
+            'phone'=>'required|unique:user_details,number|max:10',
             'email'=>'required|unique:user_details',
             'dob'=>'required'
         ]);
