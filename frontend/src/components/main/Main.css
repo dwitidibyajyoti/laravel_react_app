@@ -1,0 +1,147 @@
+.personal_parent {
+    width: 45%;
+    height: 500px;
+    background-color: #f5f5f5;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* padding: 10px; */
+}
+
+.personal_parent_address {
+    width: 45%;
+    height: auto;
+    background-color: #f5f5f5;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* padding: 10px; */
+}
+
+.personal_parent_contact{
+    width: 45%;
+    height: 377px;
+    background-color: #f5f5f5;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input_aria {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 10px;
+
+}
+
+input {
+    height: 35px;
+    margin-top: 7px;
+    border: 1px solid grey;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 7px 10px;
+
+}
+
+
+input:focus {
+    border: none;
+}
+
+.field_set .row {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.field_set {
+    margin-top: 7px;
+}
+
+select {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.field_set {
+    border-radius: 5px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+.submit_button{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    /* height: 100%; */
+
+    margin-top: 60px;
+}
+
+.submit_button_final{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    /* height: 100%; */
+
+    margin-top: 60px;
+}
+
+button{
+    background: #FFCA2C;
+    width: 194px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    height: 53px;
+    margin-bottom: 5px;
+}
+
+.next_button {
+    background: #FFCA2C;
+}
+
+.submit_button_sub {
+    background: #157347;
+}
+
+.error-messages{
+    color: red;
+}
+
+.next_button_yes{
+    background-color: #00ADEF;
+}
+
+
+
+.next_button_no{
+    background-color: #004E83;
+}
